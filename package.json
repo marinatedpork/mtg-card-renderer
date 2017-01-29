@@ -1,10 +1,10 @@
 {
   "name": "mtg-card-renderer",
   "version": "1.0.0",
-  "description": "A small package to format MTG JSON responses for Slack channels Edit",
+  "description": "A small package of helpers to format MTG JSON responses for Slack channels Edit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/runner.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/marinatedpork/mtg-card-renderer/issues"
   },
-  "homepage": "https://github.com/marinatedpork/mtg-card-renderer#readme"
+  "homepage": "https://github.com/marinatedpork/mtg-card-renderer#readme",
+  "devDependencies": {
+    "qunit": "^0.9.1"
+  }
 }
