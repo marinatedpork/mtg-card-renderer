@@ -1,0 +1,25 @@
+{
+  "name": "mtg-card-renderer",
+  "version": "1.0.0",
+  "description": "A small package to format MTG JSON responses for Slack channels Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinatedpork/mtg-card-renderer.git"
+  },
+  "keywords": [
+    "slack",
+    "magic",
+    "cards",
+    "gathering"
+  ],
+  "author": "Matthew Meyers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marinatedpork/mtg-card-renderer/issues"
+  },
+  "homepage": "https://github.com/marinatedpork/mtg-card-renderer#readme"
+}
